@@ -89,12 +89,25 @@ img {
 .sec_one {
   background: #2e2f42;
 }
+.hero-image__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+}
 .hero-image {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  display: block;
+  max-width: 496px;
+  /*padding: 188px 472px 292px 472px;*/
 }
 .button {
   font-weight: 500;
@@ -104,6 +117,10 @@ img {
   background: #4d5ae5;
   color: #fff;
   cursor: pointer;
+  border-radius: 4px;
+  padding-block: 16px;
+  padding-inline: 32px;
+  display: block;
 }
 .button:hover,
 .button:focus {
