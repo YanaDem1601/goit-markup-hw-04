@@ -26,6 +26,15 @@ ol {
 img {
   display: block;
 }
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .logo {
   font-weight: 700;
   font-size: 18px;
@@ -37,9 +46,9 @@ img {
   display: flex;
   flex-direction: row;
 }
-.page-header .container {
+.header-container {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   flex-direction: row;
   align-items: center;
   margin-left: 156px;
@@ -48,13 +57,17 @@ img {
 .header-logo .logo-part {
   color: #2e2f42;
 }
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
 .header-nav {
   display: flex;
-  gap: 78px;
   align-items: center;
 }
 .nav-list {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
@@ -69,9 +82,11 @@ img {
 }
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 .contacts-list {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 .contacts-link {
@@ -127,10 +142,11 @@ img {
 }
 .container-advantages {
   display: flex;
-  width: 1128px;
   margin: 120px 156px;
+  justify-content: center;
 }
 .advantages-list {
+  max-width: 1128px;
   display: flex;
   gap: 24px;
 }
@@ -150,29 +166,28 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.container-team {
+
+.team {
   display: flex;
-  gap: 72px;
-  /*justify-content: center;*/
-  width: 1440px;
-  padding: 120px 156px;
+  padding-top: 120px;
+  justify-content: center;
 }
-.team /*.container-team*/ {
-  display: block;
-  /*text-align: center;*/
-  /*max-width: 1440px;*/
-}
+
 .team-title,
 .team-text {
   text-align: center;
 }
 .team-list {
   display: flex;
+  max-width: 1128px;
   gap: 24px;
+  padding-top: 72px;
+  padding-bottom: 120px;
+  margin: 0 auto;
 }
 .team-items {
   display: flex;
-  gap: 24px;
+  justify-content: space-between;
   width: calc((100% - 72px) / 4);
 }
 .team,
