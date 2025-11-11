@@ -195,7 +195,6 @@ img {
 }
 .advantages {
   display: flex;
-  padding: 120px 0;
   justify-content: center;
 }
 .icon {
