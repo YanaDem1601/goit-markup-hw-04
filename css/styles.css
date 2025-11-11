@@ -253,10 +253,19 @@ img {
 .team-title {
   margin-bottom: 8px;
 }
+.social-item {
+  display: inline-block;
+  /*gap: 24px;
+  margin-top: 8px;*/
+}
 .social-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
   margin-top: 8px;
+}
+.social-link {
+  display: flex;
   justify-content: center;
   align-items: center;
   border: 20px solid #4d5ae5;
