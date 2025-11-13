@@ -389,6 +389,15 @@ img {
   background: #2e2f42;
   padding: 100px 0;
 }
+.container footer_ {
+  display: flex;
+  /*gap: 16px;
+  flex-direction: column;*/
+  align-items: center;
+}
+.footer1 {
+  max-width: 264px;
+}
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -403,4 +412,14 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+.social-title {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.footer2 {
+  gap: 16px;
+  max-width: 208px;
 }
