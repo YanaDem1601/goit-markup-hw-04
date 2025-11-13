@@ -387,14 +387,18 @@ img {
   background: #2e2f42;
   padding: 100px 0;
 }
-.container footer_ {
+.container.footer_ {
   display: flex;
-  /*gap: 16px;*/
-  flex-direction: row;
+
   align-items: baseline;
+  justify-content: start;
 }
 .footer1 {
+  display: flex;
+  flex-direction: column;
   max-width: 264px;
+  margin-right: 120px;
+  margin-left: 156px;
 }
 .footer-logo {
   display: inline-block;
@@ -424,6 +428,8 @@ img {
   color: #fff;
 }
 .footer2 {
+  display: flex;
+  flex-direction: column;
   gap: 16px;
   max-width: 208px;
 }
