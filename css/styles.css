@@ -443,10 +443,15 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
-.social-item .foot: {
+
+.social-list.foot {
   gap: 16px;
-  /* width: 40px; */
 }
+
+/*.social-item .foot: {
+  gap: 16px;
+  /* width: 40px; 
+}*/
 
 .icon-foot {
   width: 40px;
@@ -463,6 +468,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 .footer2 {
   display: flex;
