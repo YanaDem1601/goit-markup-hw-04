@@ -417,7 +417,7 @@ img {
 }
 .container.footer_ {
   display: flex;
-
+  margin-right: 120px;
   align-items: baseline;
   justify-content: start;
 }
@@ -443,8 +443,17 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
-.social-item.foot:hover,
-.social-item.foot:focus {
+.social-item .foot: {
+  gap: 16px;
+  /* width: 40px; */
+}
+
+.icon-foot {
+  width: 40px;
+}
+
+.social-link.foot:hover,
+.social-link.foot:focus {
   background-color: #31d0aa;
   border-color: #31d0aa;
 }
@@ -458,6 +467,6 @@ img {
 .footer2 {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  margin-bottom: 16px;
   max-width: 208px;
 }
