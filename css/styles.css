@@ -267,8 +267,11 @@ img {
   justify-content: center;
   gap: 24px;
   margin-top: 8px;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.icons {
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .social-item {
   display: flex;
   justify-content: center;
@@ -282,6 +285,7 @@ img {
 }
 .social-item {
   display: inline-block;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus {
